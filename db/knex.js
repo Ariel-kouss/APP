@@ -1,5 +1,5 @@
 let knex = require("knex")
-let connectionKnex = knex({
+let connectionknex = knex({
     client: 'pg',
     connection: {
         host:'localhost',
@@ -10,4 +10,4 @@ let connectionKnex = knex({
 
 });
 
-module.exports = connectionKnex;
+module.exports = connectionknex;
